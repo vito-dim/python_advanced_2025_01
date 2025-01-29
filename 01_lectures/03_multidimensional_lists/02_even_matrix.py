@@ -8,4 +8,4 @@ for row_index in range(rows):
 print(even_matrix)
 
 # one-liner:
-# print([[int(el) for el in input().split(", ") if int(el) % 2 == 0] for _ in range(int(input()))])
+# print([[int(element) for element in input().split(", ") if int(element) % 2 == 0] for _ in range(int(input()))])
